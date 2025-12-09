@@ -1,0 +1,4 @@
+[tool.mutmut]
+paths_to_mutate = ["python/"]
+tests_dir = "python"
+runner = "pytest -q python/test_gilded_rose.py"
